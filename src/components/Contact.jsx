@@ -116,7 +116,7 @@ const Contact = () => {
             <div className="text-[#009E66] pr-4 pt-5 "><FaMap size={29} /></div>
             <div className="pl-4 pt-3 border-[#424141] py-4  border-l-2 ">
               <div className="font-bold">Location</div>
-              <div className="text-[#848484] text-sm">81 Miracle Street, Benin City, Edo State, Nigeria.</div>
+              <div className="text-[#848484] text-sm">81 Miracle Street, Benin City, Edo State, Nigeria</div>
             </div>
           </div>
           {/*  */}
