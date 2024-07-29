@@ -43,7 +43,7 @@ const About = () => {
 
       <div className="flex flex-col lg:flex-row items-start justify-between">
         <div className=" rounded-full lg:rounded-md mr-14  ml-16 p-2 border-solid border-2   border-[rgba(0,0,0,.2)]">
-          <img src="../../public/martin.jpeg" className=" md:w-[100vw]   lg:rounded-sm rounded-full lg:h-[80vh]" alt="img1" />
+          <img src="/public/martin.jpeg" className=" md:w-[100vw]   lg:rounded-sm rounded-full lg:h-[80vh]" alt="img1" />
         </div>
         <div className="flex pr-2 md:pr-[2.9rem] pt-6 flex-col gap-4  md:items-start md:justify-start items-center  ">
           <h2 className="text-[#038759] font-bold text-2xl tracking-wide">Who am i?</h2>
@@ -67,7 +67,7 @@ const About = () => {
           <div className="flex-col md:flex md:flex-row text-start pt-4 gap-4">
             <div className="">
               <button  className=" tracking-wide rounded-full py-2 px-6 bg-[#038759]">
-              <a href="../../public/Resume.pdf" download="Martin_CV.pdf">Download CV</a>
+              <a href="/public/Resume.pdf" download="Martin_CV.pdf">Download CV</a>
               </button>
             </div>
             <div className="border-solid border-[1px] border-[#353434] rounded-md mt-4 h-[1px] w-[5vw]"></div>

@@ -1,12 +1,12 @@
 import { useRef } from 'react';
 
 const items = [
-  { t: 'Maketing', h: 'https://marketing-sass.netlify.app/', i: '../../public/port1.png' },
-  { t: 'Finance', h: 'https://cool-praline-073310.netlify.app/', i: '../../public/port2.png' },
-  { t: 'Medic', h: 'https://aesthetic-cucurucho-f78869.netlify.app/', i: '../../public/port3.png' },
-  { t: 'Tesla', h: 'https://gleeful-gumdrop-d7e0bf.netlify.app/', i: '../../public/port4.png' },
+  { t: 'Maketing', h: 'https://marketing-sass.netlify.app/', i: '/public/port1.png' },
+  { t: 'Finance', h: 'https://cool-praline-073310.netlify.app/', i: '/public/port2.png' },
+  { t: 'Medic', h: 'https://aesthetic-cucurucho-f78869.netlify.app/', i: '/public/port3.png' },
+  { t: 'Tesla', h: 'https://gleeful-gumdrop-d7e0bf.netlify.app/', i: '/public/port4.png' },
   // New item added
-  { t: 'Travel', h: 'https://dazzling-lily-19a2e2.netlify.app/', i: '../../public/port5.png' }
+  { t: 'Travel', h: 'https://dazzling-lily-19a2e2.netlify.app/', i: '/public/port5.png' }
 ];
 
 const Projects = () => {
