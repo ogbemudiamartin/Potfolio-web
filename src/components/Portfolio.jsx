@@ -25,7 +25,7 @@ const Portfolio = () => {
     </m.div>
 
 
-    <div className="fixed right-0 pr-8 items-end justify-end text-4xl">
+    <div className="fixed right-0 pr-8 items-end justify-end z-10 text-4xl">
     <Link to="/"><RxCross1 /></Link>
     </div>
     <div className="flex flex-col items-center justify-center pt-[2rem] gap-[1.5rem] pb-[5.5rem]">

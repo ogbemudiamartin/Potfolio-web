@@ -79,7 +79,7 @@ function Home() {
           }
           </button>
           {isOPen && 
-           <nav className='flex md:hidden  absolute   top-[5rem]  right-[2rem] p-4 w-[28vw]    bg-[#192324] items-start justify-start  '>
+           <nav className='flex md:hidden  absolute   top-[5rem]  right-[2rem] p-4 w-[39vw] md:w-[34vw] lg:w-[28vw]    bg-[#192324] items-start justify-start  '>
            <div className="flex flex-col   items-start justify-center flex-wrap
             no-underline  gap-6 text-white  ">
           <Link to="/about" className='pr-[3rem]'>About</Link>

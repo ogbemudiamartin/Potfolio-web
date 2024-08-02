@@ -35,7 +35,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto z-[-0]">
       <main className="flex flex-wrap justify-center">
         {items.map((item, index) => {
           const svgRef = useRef(null);
@@ -66,7 +66,7 @@ const Projects = () => {
                     <circle ref={clipRef} cx="0" cy="0" r="150" fill="#000" />
                   </clipPath>
                 </defs>
-                <text fill="white" className="text-white text-sm  font-bold text-center transform-translate-x-1/2 -translate-y-1/2" x="20%" y="100%" dy="5em">
+                <text fill="white" className="text-white text-sm  font-bold text-center transform-translate-x-1/2 -translate-y-1/2" x="24%" y="100%" dy="5em">
                   {item.t}
                 </text>
                 <g className='' clipPath={`url(#clip-${index})`}>

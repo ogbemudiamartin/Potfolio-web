@@ -59,11 +59,11 @@ const Contact = () => {
     </div>
 
     <div className="md:px-[3.5rem] px-[1rem]">
-      <div className=" tracking-wide pb-2 text-xl">Message Me</div>
      
-      <div className="flex flex-col  lg:flex-row items-center justify-between">
+      <div className="flex flex-col-reverse  lg:flex-row items-center justify-between">
         {/* contact us */}
-        <div className="flex flex-col w-full  items-start justify-start">
+        <div className="flex flex-col pt-10 md:pt-0 w-full  items-start justify-start">
+        <div className=" tracking-wide pb-[1.5rem] text-xl">Message Me</div>
           {/* form */}
         <form action="" ref={form} onSubmit={sendEmail} className="outline-none w-full">
         <div className="flex flex-col md:flex-row gap-0 md:gap-6 ">
@@ -97,7 +97,7 @@ const Contact = () => {
         </div>
 
         {/* contact info */}
-        <div className="flex flex-col pt-8 relative bottom-0 lg:bottom-[3.5rem] pl-[1rem] lg:pl-[3rem] items-start gap-3 justify-start">
+        <div className="flex flex-col pt-2 md:pt-8 relative bottom-0 lg:bottom-[3.5rem] pl-[1rem] lg:pl-[3rem] items-start gap-3 justify-start">
         <div className=" tracking-wide text-2xl pb-2 ">Contact Info</div>
         <h2 className="text-[#848484]  pb-2">
         Always available for freelance work if the right project comes along, Feel free to contact me!

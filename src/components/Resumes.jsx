@@ -35,7 +35,7 @@ transition={{ duration:0.5, ease: [0.22, 1, 0.36, 1]}}
 <Loadanimat />
 </div>
 
-<div className="px-[3rem]">
+<div className="px-[1rem] md:px-[3rem]">
   <div className="flex items-center justify-between gap-4 flex-wrap">
     <div className="">
       <h1 className="font-bold text-xl pb-4">Education</h1>

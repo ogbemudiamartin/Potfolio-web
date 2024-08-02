@@ -8,7 +8,6 @@ import { FaGithub } from "react-icons/fa";
 import { SiThirdweb } from "react-icons/si";
 import { FaArrowsAlt } from "react-icons/fa";
 import { motion as m } from 'framer-motion';
-
 const About = () => {
  
     return (
@@ -70,8 +69,8 @@ const About = () => {
               <a href="/public/Resume.pdf" download="Martin_CV.pdf">Download CV</a>
               </button>
             </div>
-            <div className="border-solid border-[1px] border-[#353434] rounded-md mt-4 h-[1px] w-[5vw]"></div>
-            <div className="flex text-xl items-center justify-center gap-4 text-[#969696]">
+            <div className="border-solid border-[1px] hidden md:block border-[#353434] rounded-md mt-4 h-[1px] w-[5vw]"></div>
+            <div className="flex text-xl items-center justify-center  gap-4 text-[#969696]">
                 <a href="https://www.linkedin.com/in/ogbemudia-martin-4a8226235/" target="_blank"><FaLinkedin /></a>
                 <a href="" target="_blank"><FaFacebook /></a>
                 <a href="" target="_blank"><FaXTwitter /></a>
@@ -89,7 +88,7 @@ const About = () => {
         <h2 className="text-[#969696] pb-4">Services i offer</h2>
         <h1 className="font-extrabold text-4xl">My Services</h1>
         <div className=" md:flex md:flex-row flex-col items-center justify-center gap-6 pt-[3rem]">
-          <div className="flex flex-col hover:border-b-2 hover:border-solid  hover:border-[#038759] items-start shadow-md rounded-sm justify-center mb-6 md:mb-0  p-9 gap-3 bg-[#161616]">
+          <div className="flex flex-col hover:border-b-2 hover:border-solid  hover:border-[#038759] items-start shadow-md rounded-sm justify-center mb-6 md:mb-0  p-9 gap-3 bg-[#161616]" >
           <SiThirdweb className="text-[#038759] text-[3.5rem]"/>
           <h1 className="font-bold text-xl">Web Development</h1>
           <p className="text-[#636363] leading-7">Creating custom websites that reflect your unique business vision</p>
