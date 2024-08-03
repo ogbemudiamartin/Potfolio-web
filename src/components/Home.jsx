@@ -5,8 +5,6 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-
-
 import { motion as m } from 'framer-motion';
 
 
@@ -20,12 +18,7 @@ function Home() {
 
   return (
   
-  <div 
-  // initial={{y: '100%'}} 
-  // animate={{y: '0%'}}
-  // exit={{opacity: 1}}
-  // transition={{ duration: 0.75, ease: 'easeInOut'}}
-  className='absolute w-full top-0 left-0 right-0'>
+  <div  className='absolute w-full top-0 left-0 right-0'>
 <m.div 
         className="fixed z-10 transform transform-origin-bottom top-0 left-0 w-full h-full bg-[#1f1f1f]"
         initial={{ scaleY: 0}}
