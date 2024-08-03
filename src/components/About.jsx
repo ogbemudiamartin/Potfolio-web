@@ -70,7 +70,7 @@ const About = () => {
               </button>
             </div>
             <div className="border-solid border-[1px] hidden md:block border-[#353434] rounded-md mt-4 h-[1px] w-[5vw]"></div>
-            <div className="flex text-xl items-center justify-center  gap-4 text-[#969696]">
+            <div className="flex text-xl items-center justify-center pt-[1rem] md:pt-0  gap-4 text-[#969696]">
                 <a href="https://www.linkedin.com/in/ogbemudia-martin-4a8226235/" target="_blank"><FaLinkedin /></a>
                 <a href="" target="_blank"><FaFacebook /></a>
                 <a href="" target="_blank"><FaXTwitter /></a>

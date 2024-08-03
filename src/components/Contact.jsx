@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="absolute w-full  p-[2rem] text-[#F0F0F0]  bg-[#101010] z-[2] top-0 left-0 right-0"> 
+    <div className="absolute w-full p-[1rem] md:p-[2rem] text-[#F0F0F0]  bg-[#101010] z-[2] top-0 left-0 right-0"> 
     <m.div 
         className="fixed z-10 transform transform-origin-bottom top-0 left-0 w-full h-full bg-[#121111]"
         initial={{ scaleY: 0}}
