@@ -72,11 +72,7 @@ const Projects = () => {
                 <g className='' clipPath={`url(#clip-${index})`}>
                   <a href={item.h} target='_blank' rel='noopener noreferrer'>
                     <image href={item.i} className='object-cover' width="100%" height="100%" preserveAspectRatio="xMinYMin slice" />
-                    {/* <text className="text-white text-sm  font-bold text-center transform-translate-x-1/2 -translate-y-1/2" x="20%" y="100%" dy="4em">
-                    <a href="" className='text-white bg-black'>
-                    {item.t}
-                    </a>
-                    </text> */}
+                  
                   </a>
                 </g>
               </svg>
