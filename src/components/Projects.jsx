@@ -1,12 +1,28 @@
-import { useRef } from 'react';
+import { useRef } from "react";
 
 const items = [
-  { t: 'Maketing', h: 'https://marketing-sass.netlify.app/', i: '/public/port1.png' },
-  { t: 'Finance', h: 'https://cool-praline-073310.netlify.app/', i: '/public/port2.png' },
-  { t: 'Medic', h: 'https://aesthetic-cucurucho-f78869.netlify.app/', i: '/public/port3.png' },
-  { t: 'Tesla', h: 'https://gleeful-gumdrop-d7e0bf.netlify.app/', i: '/public/port4.png' },
+  { t: "Maketing", h: "https://marketing-sass.netlify.app/", i: "/port1.png" },
+  {
+    t: "Finance",
+    h: "https://cool-praline-073310.netlify.app/",
+    i: "/port2.png",
+  },
+  {
+    t: "Medic",
+    h: "https://aesthetic-cucurucho-f78869.netlify.app/",
+    i: "/port3.png",
+  },
+  {
+    t: "Tesla",
+    h: "https://gleeful-gumdrop-d7e0bf.netlify.app/",
+    i: "/port4.png",
+  },
   // New item added
-  { t: 'Travel', h: 'https://dazzling-lily-19a2e2.netlify.app/', i: '/public/port5.png' }
+  {
+    t: "Travel",
+    h: "https://dazzling-lily-19a2e2.netlify.app/",
+    i: "/port5.png",
+  },
 ];
 
 const Projects = () => {
@@ -16,8 +32,8 @@ const Projects = () => {
     point.y = e.clientY;
     const ctm = svg.getScreenCTM().inverse();
     const coords = point.matrixTransform(ctm);
-    clip.setAttribute('cx', coords.x);
-    clip.setAttribute('cy', coords.y);
+    clip.setAttribute("cx", coords.x);
+    clip.setAttribute("cy", coords.y);
   };
 
   const handleTouchMove = (e, svg, clip) => {
@@ -29,8 +45,8 @@ const Projects = () => {
       point.y = touch.clientY;
       const ctm = svg.getScreenCTM().inverse();
       const coords = point.matrixTransform(ctm);
-      clip.setAttribute('cx', coords.x);
-      clip.setAttribute('cy', coords.y);
+      clip.setAttribute("cx", coords.x);
+      clip.setAttribute("cy", coords.y);
     }
   };
 
@@ -60,19 +76,35 @@ const Projects = () => {
               onMouseMove={handleMouseMoveWrapper}
               onTouchMove={handleTouchMoveWrapper}
             >
-              <svg ref={svgRef} viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" className="absolute inset-0 w-full h-full">
+              <svg
+                ref={svgRef}
+                viewBox="0 0 300 200"
+                preserveAspectRatio="xMidYMid slice"
+                className="absolute inset-0 w-full h-full"
+              >
                 <defs>
                   <clipPath id={`clip-${index}`}>
                     <circle ref={clipRef} cx="0" cy="0" r="150" fill="#000" />
                   </clipPath>
                 </defs>
-                <text fill="white" className="text-white text-sm  font-bold text-center transform-translate-x-1/2 -translate-y-1/2" x="24%" y="100%" dy="5em">
+                <text
+                  fill="white"
+                  className="text-white text-sm  font-bold text-center transform-translate-x-1/2 -translate-y-1/2"
+                  x="24%"
+                  y="100%"
+                  dy="5em"
+                >
                   {item.t}
                 </text>
-                <g className='' clipPath={`url(#clip-${index})`}>
-                  <a href={item.h} target='_blank' rel='noopener noreferrer'>
-                    <image href={item.i} className='object-cover' width="100%" height="100%" preserveAspectRatio="xMinYMin slice" />
-                  
+                <g className="" clipPath={`url(#clip-${index})`}>
+                  <a href={item.h} target="_blank" rel="noopener noreferrer">
+                    <image
+                      href={item.i}
+                      className="object-cover"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMinYMin slice"
+                    />
                   </a>
                 </g>
               </svg>
