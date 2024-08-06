@@ -38,11 +38,11 @@ function Home() {
         </m.div>
           <header className='md:px-[4rem]  px-[1.8rem] w-full h-[100vh]  py-8 bg-[rgb(0,0,0,.8)] text-[#fff]'>
         <video className='z-[-1]  absolute top-0 left-0 w-full h-full object-cover' muted autoPlay loop>
-          <source src='/src/assets/vid1.mp4'/>
+          <source src='/public/vid1.mp4'/>
         </video>
 
       <div className="flex justify-between items-center">
-          <img src="/src/assets/logo.png" className='object-cover md:w-[9vw] w-[15vw] h-full cursor-pointer' alt="logo" />
+          <img src="/public/logo.png" className='object-cover md:w-[9vw] w-[15vw] h-full cursor-pointer' alt="logo" />
 {/* Navbar */}
 
 
