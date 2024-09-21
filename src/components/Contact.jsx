@@ -80,7 +80,7 @@ const Contact = () => {
         <div className="name">
           <input 
           type="text" 
-          name="Subject"  
+          name="subject"  
           className="bg-[#161616] mb-4 w-[100%] shadow-sm p-4  outline-none focus:border-[#009E66] focus:border-b-2"  
           placeholder="Subject"/>
         </div>

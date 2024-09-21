@@ -57,7 +57,7 @@ transition={{ duration:0.5, ease: [0.22, 1, 0.36, 1]}}
           <h1 className="text-xl font-bold">Problem Solvinng</h1>
           <h2 className="text-[#636363]">University of Califonia School Of Bussiness / 2023</h2>
           <p className="text-[#636363]">
-            as an Engineering we arre known for being problem solvers
+          I excel at solving problems with creativity and determination
           </p>
         </div>
 
@@ -71,9 +71,9 @@ transition={{ duration:0.5, ease: [0.22, 1, 0.36, 1]}}
          <div className="absolute bg-[#038759] left-0 top-6 w-[2%] h-[2.5vh]"></div>
          <div className="absolute text-[#038759] left-[0.1rem] top-[1.25rem] text-2xl"><PiCaretRightFill /></div>
           <h1 className="text-xl font-bold">Frontend Developer</h1>
-          <h2 className="text-[#636363]">Intern At Alx / 2022 - 2023</h2>
+          <h2 className="text-[#636363]">Intern At Alx / 2022 - 2023 </h2>
           <p className="text-[#636363]">
-            as an Engineering we arre known for being problem solvers
+          Though brief, my internship equipped me to overcome challenges
           </p>
         </div>
         
@@ -81,9 +81,9 @@ transition={{ duration:0.5, ease: [0.22, 1, 0.36, 1]}}
          <div className="absolute bg-[#038759] left-0 top-6 w-[2%] h-[2.5vh]"></div>
          <div className="absolute text-[#038759] left-[0.1rem] top-[1.25rem] text-2xl"><PiCaretRightFill /></div>
           <h1 className="text-xl font-bold">Frontend Developer</h1>
-          <h2 className="text-[#636363]">FreeLance At Upwork Alx / 2022 - 2023</h2>
+          <h2 className="text-[#636363]">FreeLance At Upwork Alx / 2022 -</h2>
           <p className="text-[#636363]">
-            as an Engineering we arre known for being problem solvers
+          I thrive as a freelancer, delivering quality work and solutions
           </p>
         </div>
 
